@@ -6,6 +6,16 @@ and https://rusa.org/pages/rulesForRiders
 """
 import arrow
 
+race_type = {
+    200:  { 'hours': 13.5, 'speed': 15.0 },
+    300:  { 'hours': 20.0, 'speed': 15.0 },
+    400:  { 'hours': 27.0, 'speed': 15.0 },
+    600:  { 'hours': 40.0, 'speed': 15.0 },
+    1000: { 'hours': 75.0, 'speed': 13.3 },
+    1200: { 'hours': 90.0, 'speed': 13.3 },
+    1400: { 'hours': 116.40, 'speed': 12.0 },
+    2200: { 'hours': 220.0, 'speed': 10.0 }
+}
 
 #  You MUST provide the following two functions
 #  with these signatures. You must keep
